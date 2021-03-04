@@ -4,6 +4,9 @@ import { Container, Col, Row, Navbar } from "react-bootstrap";
 /*import Image from './assets/image.png';
 import Image from './assets/image.svg';*/
 import Marquee from "react-marquee-slider";
+import ToccaLogo from "../assets/tocca_logo.svg";
+import Home from "../assets/home_image.png";
+import Clock from "../assets/ic-clock.svg";
 
 const Welcome = () => {
   const [isPaused, setPause] = useState(false);
@@ -17,7 +20,7 @@ const Welcome = () => {
             <Navbar>
               <Navbar.Brand href="#home">
                 <img
-                  src="./assets/tocca_logo.svg"
+                  src={ToccaLogo}
                   width="138"
                   className="d-inline-block align-top"
                   alt="Tocca"
@@ -27,7 +30,7 @@ const Welcome = () => {
 
             <div className="banner-wrap">
               <img
-                src="./assets/home_image.png"
+                src={Home}
                 width="138"
                 className="d-inline-block align-top"
                 alt="The Bridge Conference"
@@ -39,10 +42,11 @@ const Welcome = () => {
               </h2>
               <div className="time-wrap">
                 <img
-                  src="./assets/ic-clock.svg"
+                  src={Clock}
                   width="22"
                   className="d-inline-block align-top"
                   alt=""
+                  style={{ backgroundColor: "black" }}
                 />
                 <span className="time-set">Oct 15, 2020 8:00 AM PDT</span>
               </div>
