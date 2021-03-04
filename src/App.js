@@ -14,7 +14,7 @@ import Welcome from './Welcome/Welcome';
 import Sidebar from './Sidebar/Sidebar';
 import Lobby from './Lobby/Lobby';
 import './App.css';
-
+import Maincontent from './maincontent'
 
 
 
@@ -36,6 +36,7 @@ const App = () => (
             </Route>
             <Route path="/welcome">
               <Welcome />
+              <Maincontent/>
             </Route>
           </Switch>
         </h2>
