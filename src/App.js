@@ -1,11 +1,15 @@
 import React from 'react';
-import { MemoryRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter , Switch, Route } from 'react-router-dom';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+/*import BootstrapSlider from 'react-bootstrap-slider';*/
 import { LinkContainer } from 'react-router-bootstrap';
+/*import Image from './assets/image.png';
+import Image from './assets/image.svg';*/
+
 import Welcome from './Welcome/Welcome';
 import Sidebar from './Sidebar/Sidebar';
 import Lobby from './Lobby/Lobby';
@@ -14,8 +18,9 @@ import './App.css';
 
 
 
+
 const App = () => (
-  <MemoryRouter>
+  <BrowserRouter>
     <Container className="p-3">
       <Jumbotron>
         <h1 className="header">Welcome To React-Bootstrap</h1>
@@ -23,13 +28,13 @@ const App = () => (
         <h2>
           Current Page is{' '}
           <Switch>
-            <Route path="/about">
+            <Route path="/lobby">
               <Lobby />
             </Route>
-            <Route path="/users">
+            <Route path="/sidebar">
               <Sidebar />
             </Route>
-            <Route path="/">
+            <Route path="/welcome">
               <Welcome />
             </Route>
           </Switch>
@@ -38,20 +43,20 @@ const App = () => (
         <h2>
           Navigate to{' '}
           <ButtonToolbar className="custom-btn-toolbar">
-            <LinkContainer to="/">
-              <Button>Home</Button>
+            <LinkContainer to="/welcome">
+              <Button>welcome</Button>
             </LinkContainer>
-            <LinkContainer to="/about">
-              <Button>About</Button>
+            <LinkContainer to="/sidebar">
+              <Button>sidebar</Button>
             </LinkContainer>
-            <LinkContainer to="/users">
-              <Button>Users</Button>
+            <LinkContainer to="/lobby">
+              <Button>lobby</Button>
             </LinkContainer>
           </ButtonToolbar>
         </h2>
       </Jumbotron>
     </Container>
-  </MemoryRouter>
+  </BrowserRouter>
 );
 
 export default App;
