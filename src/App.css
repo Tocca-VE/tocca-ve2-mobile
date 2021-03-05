@@ -149,17 +149,17 @@ width: 215px;
     outline: none;
     text-decoration: none;
   }
-  .nav-link img, .nav-bottom img{padding-right: 10px}
-  .nav-bottom{ 
-    position: absolute;
-  bottom: 15%;
-  font-size: 14px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: normal;
-    color: #fff;
-    outline: none;
-    text-decoration:none;}
+.nav-link img, .nav-bottom img{padding-right: 10px}
+.nav-bottom{ 
+  position: absolute;
+bottom: 15%;
+font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #fff;
+  outline: none;
+  text-decoration:none;}
 
 .sc-bdfBwQ{  border-radius: 2px;
   border: solid 0.5px #e9ecef; margin:16px 8px; padding: 9px;}  
