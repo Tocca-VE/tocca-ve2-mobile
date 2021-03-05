@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter , Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
@@ -23,25 +23,24 @@ const App = () => (
   <BrowserRouter>
     <Container className="p-3">
       <Jumbotron>
-        <h1 className="header">Welcome To React-Bootstrap</h1>
 
-        <h2>
-          Current Page is{' '}
-          <Switch>
-            <Route path="/lobby">
-              <Lobby />
-            </Route>
-            <Route path="/sidebar">
-              <Sidebar />
-            </Route>
-            <Route path="/welcome">
-              <Welcome />
-              <Maincontent/>
-            </Route>
-          </Switch>
-        </h2>
 
-        <h2>
+
+        <Switch>
+          <Route path="/lobby">
+            <Lobby />
+          </Route>
+          <Route path="/sidebar">
+            <Sidebar />
+          </Route>
+          <Route path="/">
+            <Welcome />
+            <Maincontent />
+          </Route>
+        </Switch>
+
+
+        {/* <h2>
           Navigate to{' '}
           <ButtonToolbar className="custom-btn-toolbar">
             <LinkContainer to="/welcome">
@@ -54,7 +53,7 @@ const App = () => (
               <Button>lobby</Button>
             </LinkContainer>
           </ButtonToolbar>
-        </h2>
+        </h2> */}
       </Jumbotron>
     </Container>
   </BrowserRouter>
