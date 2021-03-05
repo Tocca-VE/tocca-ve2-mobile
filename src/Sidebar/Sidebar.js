@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button, Nav } from "react-bootstrap";
 import Clock from "../assets/ic-clock.svg";
+import * as UI from '../components/Icons';
 
 const Sidebar = () => {
   return (
@@ -26,23 +27,19 @@ const Sidebar = () => {
               <div className="navigation-wrap">
                 <Nav.Item>
                   <Nav.Link eventKey="link-1">
-                    <img
+                    <UI.ProfileIcon />
+                    {/* <img
                       src={Clock}
                       width="24"
                       className="d-inline-block align-center"
                       alt=""
-                    />{" "}
+                    />{" "} */}
                     Profile
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="link-2">
-                    <img
-                      src={Clock}
-                      width="24"
-                      className="d-inline-block align-center"
-                      alt=""
-                    />{" "}
+                    <UI.SwappedCardsIcon />
                     Swapped Cards
                   </Nav.Link>
                 </Nav.Item>

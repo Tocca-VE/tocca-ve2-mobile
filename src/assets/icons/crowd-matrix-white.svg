@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ic/crowd Matrix</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/crowd-Matrix" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(7.000000, 4.000000)" fill-rule="nonzero">
+            <path d="M8.25530211,3.28995851 C8.30114973,3.22095916 8.39425159,3.20219097 8.46325095,3.24803859 C8.51845043,3.28471669 8.54150197,3.3516375 8.52504062,3.41226637 L8.50517087,3.45598743 L2.28709654,12.814011 C2.24124892,12.8830104 2.14814706,12.9017786 2.0791477,12.855931 C2.02394822,12.8192529 2.00089668,12.7523321 2.01735803,12.6917032 L2.03722778,12.6479821 L8.25530211,3.28995851 Z" id="Path-2" fill="#7F7F7F"></path>
+            <path d="M8.25530207,3.28995851 C8.30114969,3.22095916 8.39425156,3.20219097 8.46325091,3.24803859 C8.5184504,3.28471669 8.54150193,3.3516375 8.52504059,3.41226637 L8.50517084,3.45598743 L2.28709651,12.814011 C2.24124889,12.8830104 2.14814702,12.9017786 2.07914767,12.855931 C2.02394819,12.8192529 2.00089665,12.7523321 2.01735799,12.6917032 L2.03722775,12.6479821 L8.25530207,3.28995851 Z" id="Path-2" fill="#7F7F7F" transform="translate(5.271199, 8.051985) scale(-1, 1) translate(-5.271199, -8.051985) "></path>
+            <g id="Group-5" transform="translate(3.113514, 0.000000)">
+                <polygon id="Path-4" fill="#E9E9E9" points="2.24864865 0 2.24864865 3.37297297 4.4972973 3.37297297"></polygon>
+                <polygon id="Path-4" fill="#FFFFFF" transform="translate(1.124324, 1.686486) scale(-1, 1) translate(-1.124324, -1.686486) " points="0 0 0 3.37297297 2.24864865 3.37297297"></polygon>
+                <polygon id="Path-4" fill="#BCBCBC" transform="translate(3.372973, 5.059459) scale(-1, 1) rotate(-180.000000) translate(-3.372973, -5.059459) " points="2.24864865 3.37297297 2.24864865 6.74594595 4.4972973 6.74594595"></polygon>
+                <polygon id="Path-4" fill="#D2D2D2" transform="translate(1.124324, 5.059459) rotate(180.000000) translate(-1.124324, -5.059459) " points="0 3.37297297 0 6.74594595 2.24864865 6.74594595"></polygon>
+            </g>
+            <g id="Group-5-Copy" transform="translate(3.113514, 9.254054)">
+                <polygon id="Path-4" fill="#E9E9E9" points="2.24864865 0 2.24864865 3.37297297 4.4972973 3.37297297"></polygon>
+                <polygon id="Path-4" fill="#FFFFFF" transform="translate(1.124324, 1.686486) scale(-1, 1) translate(-1.124324, -1.686486) " points="0 0 0 3.37297297 2.24864865 3.37297297"></polygon>
+                <polygon id="Path-4" fill="#BCBCBC" transform="translate(3.372973, 5.059459) scale(-1, 1) rotate(-180.000000) translate(-3.372973, -5.059459) " points="2.24864865 3.37297297 2.24864865 6.74594595 4.4972973 6.74594595"></polygon>
+                <polygon id="Path-4" fill="#D2D2D2" transform="translate(1.124324, 5.059459) rotate(180.000000) translate(-1.124324, -5.059459) " points="0 3.37297297 0 6.74594595 2.24864865 6.74594595"></polygon>
+            </g>
+            <g id="Group-4" transform="translate(6.140541, 4.670270)">
+                <polygon id="Path-4-Copy-5" fill="#E9E9E9" points="2.24864865 0 2.24864865 3.37297297 4.4972973 3.37297297"></polygon>
+                <polygon id="Path-4-Copy-6" fill="#FFFFFF" transform="translate(1.124324, 1.686486) scale(-1, 1) translate(-1.124324, -1.686486) " points="0 0 0 3.37297297 2.24864865 3.37297297"></polygon>
+                <polygon id="Path-4-Copy-7" fill="#BCBCBC" transform="translate(3.372973, 5.059459) scale(-1, 1) rotate(-180.000000) translate(-3.372973, -5.059459) " points="2.24864865 3.37297297 2.24864865 6.74594595 4.4972973 6.74594595"></polygon>
+                <polygon id="Path-4-Copy-8" fill="#D2D2D2" transform="translate(1.124324, 5.059459) rotate(180.000000) translate(-1.124324, -5.059459) " points="0 3.37297297 0 6.74594595 2.24864865 6.74594595"></polygon>
+            </g>
+            <g id="Group-3" transform="translate(0.000000, 4.670270)">
+                <polygon id="Path-4" fill="#E9E9E9" points="2.24864865 0 2.24864865 3.37297297 4.4972973 3.37297297"></polygon>
+                <polygon id="Path-4" fill="#FFFFFF" transform="translate(1.124324, 1.686486) scale(-1, 1) translate(-1.124324, -1.686486) " points="0 0 0 3.37297297 2.24864865 3.37297297"></polygon>
+                <polygon id="Path-4" fill="#BCBCBC" transform="translate(3.372973, 5.059459) scale(-1, 1) rotate(-180.000000) translate(-3.372973, -5.059459) " points="2.24864865 3.37297297 2.24864865 6.74594595 4.4972973 6.74594595"></polygon>
+                <polygon id="Path-4" fill="#D2D2D2" transform="translate(1.124324, 5.059459) rotate(180.000000) translate(-1.124324, -5.059459) " points="0 3.37297297 0 6.74594595 2.24864865 6.74594595"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
