@@ -26,20 +26,22 @@ const Welcome = () => {
               <Navbar.Brand href="#home">
                 <img
                   src={ToccaLogo}
-                  width="138"
+                  width="122"
                   className="d-inline-block align-top"
                   alt="Tocca"
                 />
               </Navbar.Brand>
             </Navbar>
 
-            <div className="banner-wrap">
+            <div className="banner-wrap"></div>
+            <div className="banner-content">
               <img
                 src={Home}
-                width="138"
-                className="d-inline-block align-top"
+                width="179"
+                className=""
                 alt="The Bridge Conference"
               />
+          
             </div>
             <div className="home-body">
               <h2 className="welcome-label">

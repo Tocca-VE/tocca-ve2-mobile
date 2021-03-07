@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Button, Nav } from "react-bootstrap";
 import Clock from "../assets/ic-clock.svg";
+import Logout from "../assets/icons/logout.svg";
+import Terms from "../assets/icons/terms.svg";
+import Swapcard from "../assets/icons/swap-cards.svg";
+import Userwhite from "../assets/icons/user-white.svg";
 import * as UI from '../components/Icons';
 
 const Sidebar = () => {
@@ -27,30 +31,37 @@ const Sidebar = () => {
               <div className="navigation-wrap">
                 <Nav.Item>
                   <Nav.Link eventKey="link-1">
-                    <UI.ProfileIcon />
-                    {/* <img
-                      src={Clock}
-                      width="24"
+                    <span><img
+                      src={Userwhite}
+                      width="17"
                       className="d-inline-block align-center"
                       alt=""
-                    />{" "} */}
+                    /></span>
                     Profile
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="link-2">
-                    <UI.SwappedCardsIcon />
+                  <span><img
+                      src={Swapcard}
+                      width="24"
+                      className="d-inline-block align-center"
+                      alt=""
+                    />
+                  </span>
                     Swapped Cards
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="link-3">
+                    <span>
                     <img
-                      src={Clock}
-                      width="24"
+                      src={Terms}
+                      width="18"
                       className="d-inline-block align-center"
                       alt=""
-                    />{" "}
+                    />
+                    </span>
                     Terms of Service
                   </Nav.Link>
                 </Nav.Item>
@@ -59,8 +70,8 @@ const Sidebar = () => {
               <div className="nav-bottom">
                 <Button variant="link">
                   <img
-                    src={Clock}
-                    width="24"
+                    src={Logout}
+                    width="20"
                     className="d-inline-block align-center"
                     alt=""
                   />
