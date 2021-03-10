@@ -33,7 +33,8 @@ const Welcome = () => {
               </Navbar.Brand>
             </Navbar>
 
-            <div className="banner-wrap"></div>
+            
+            <div className="banner-wrap">
             <div className="banner-content">
               <img
                 src={Home}
@@ -43,6 +44,9 @@ const Welcome = () => {
               />
           
             </div>
+            </div>
+           
+
             <div className="home-body">
               <h2 className="welcome-label">
                 Welcome to the 2020 Bridge Conference
@@ -68,21 +72,14 @@ const Welcome = () => {
                   key="sponsors-list"
                   velocity={isPaused ? 0 : 5}
                 >
-                  <img
-                    onMouseOver={() => setPause(true)}
-                    onMouseLeave={() => setPause(false)}
-                    style={{ cursor: "pointer" }}
-                    src="https://5.imimg.com/data5/IO/EQ/KA/SELLER-58506199/bag-metal-logo-250x250.jpg"
-                    alt="logo"
-                    height="32"
-                  />
+
                    <img
                     onMouseOver={() => setPause(true)}
                     onMouseLeave={() => setPause(false)}
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_01}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -92,7 +89,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_02}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -102,7 +99,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_03}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -112,7 +109,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_01}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -122,7 +119,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_02}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -132,7 +129,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_03}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -142,7 +139,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_01}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -152,7 +149,7 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_02}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
@@ -162,50 +159,11 @@ const Welcome = () => {
                     style={{ cursor: "pointer" }}
 	                src={Sponcer_03}
 	                alt="logo"
-	                height="32"
+	                height="18"
 	                fluid
 	              />
 
-                  <img
-                    onMouseOver={() => setPause(true)}
-                    onMouseLeave={() => setPause(false)}
-                    style={{ cursor: "pointer" }}
-                    src="https://5.imimg.com/data5/SF/HT/GX/SELLER-83886466/pu-printed-logo-500x500.jpg"
-                    alt="logo"
-                    height="32"
-                  />
-                  <img
-                    onMouseOver={() => setPause(true)}
-                    onMouseLeave={() => setPause(false)}
-                    style={{ cursor: "pointer" }}
-                    src="https://5.imimg.com/data5/IO/EQ/KA/SELLER-58506199/bag-metal-logo-250x250.jpg"
-                    alt="logo"
-                    height="32"
-                  />
-                  <img
-                    onMouseOver={() => setPause(true)}
-                    onMouseLeave={() => setPause(false)}
-                    style={{ cursor: "pointer" }}
-                    src="https://5.imimg.com/data5/SF/HT/GX/SELLER-83886466/pu-printed-logo-500x500.jpg"
-                    alt="logo"
-                    height="32"
-                  />
-                  <img
-                    onMouseOver={() => setPause(true)}
-                    onMouseLeave={() => setPause(false)}
-                    style={{ cursor: "pointer" }}
-                    src="https://5.imimg.com/data5/IO/EQ/KA/SELLER-58506199/bag-metal-logo-250x250.jpg"
-                    alt="logo"
-                    height="32"
-                  />
-                  <img
-                    onMouseOver={() => setPause(true)}
-                    onMouseLeave={() => setPause(false)}
-                    style={{ cursor: "pointer" }}
-                    src="https://5.imimg.com/data5/SF/HT/GX/SELLER-83886466/pu-printed-logo-500x500.jpg"
-                    alt="logo"
-                    height="32"
-                  />
+                
                 </Marquee>
               </div>
             </div>
