@@ -212,3 +212,8 @@ color: #fff; font-size: 14px; font-weight: 500; display: block; margin: 0 auto; 
 }
 */
 
+@media screen and (max-device-width: 320px) {
+ .main-bottom{     text-align: center;
+    padding-bottom: 30px;
+    position: inherit; }
+}
