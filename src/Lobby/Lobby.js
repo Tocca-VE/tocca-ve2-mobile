@@ -5,6 +5,7 @@ import Timer from "./Timer";
 const Lobby = () => {
   return (
     // <span>Lobby</span>
+    
     <div>
       <div>
         <Timer />

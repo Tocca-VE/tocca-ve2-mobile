@@ -19,8 +19,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
   <BrowserRouter>
-    <Container className="p-3">
-      <Jumbotron>
+ 
+     
         <Layout>
           <Switch>
             <Route path="/lobby">
@@ -34,7 +34,7 @@ const App = () => (
             </Route>
           </Switch>
         </Layout>
-
+        
         {/* <h2>
           Navigate to{' '}
           <ButtonToolbar className="custom-btn-toolbar">
@@ -49,8 +49,8 @@ const App = () => (
             </LinkContainer>
           </ButtonToolbar>
         </h2> */}
-      </Jumbotron>
-    </Container>
+     
+        
   </BrowserRouter>
 );
 

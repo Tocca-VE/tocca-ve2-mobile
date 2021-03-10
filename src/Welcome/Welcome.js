@@ -21,12 +21,12 @@ const Welcome = () => {
     <div className="main">
       <Container>
         <Row className="justify-content-sm-center">
-          <Col xs={12}>
+          <Col xs={12} className="p-0">
             <Navbar>
               <Navbar.Brand href="#home">
                 <img
                   src={ToccaLogo}
-                  width="122"
+                  width="95"
                   className="d-inline-block align-top"
                   alt="Tocca"
                 />
