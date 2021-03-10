@@ -15,7 +15,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import Lobby from "./Lobby/Lobby";
 import "./App.css";
 import Layout from "./Layout";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => (
   <BrowserRouter>
